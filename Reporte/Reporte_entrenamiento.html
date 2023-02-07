@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang = 'en_US.UTF-8'>
+    <meta charset = "en_US.UTF-8">
+</head>
+
+<style>
+.fig {
+    max-width: 85%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataframe {
+    text-align: center
+}
+
+h5 {color:orangered}
+
+h6 {color:orangered}
+
+</style>
+
+<body>
+    
+    <div style = 'display: block; background-color: white;'>
+        <div style = 'display: flex; align-items: center'>
+            <img src = {{ Logo }} alt = 'Image Not found' style="max-height: 171px; max-width: auto;"/>
+        </div>
+        <div>
+            <center>
+                <h5 style = 'padding-left: 15px'>REPORTE ENTRENAMIENTO DEPORTIVO</h5>
+            </center>
+        </div>
+    </div>
+    
+
+    <div style = 'display: block; margin-left: auto; margin-right: auto;'>
+    <center>
+    <div>
+        <center><h6 style = 'font-size: 17px'>Información general del equino</h6></center>
+
+        {{ Tabla_1 }}
+
+    </div>
+    <br/>
+    <div>
+        <h6 style = 'font-size: 17px'>Condición del Equino</h6>
+
+        {{ Tabla_2 }}
+    </div>
+    <br/>
+
+    <div>
+        <h6 style = 'font-size: 17px'>Tipo de Entrenamiento</h6>
+
+        {{ Tabla_3 }}
+    </div>
+
+    <br/>
+
+    <div>
+        <h6 style = 'font-size: 17px'>Datos italcol</h6>
+
+        {{ Tabla_4 }}
+    </div>
+
+    <br/>
+
+    <div>
+        <h6 style = 'font-size: 17px'>Consumo</h6>
+
+        {{ Tabla_5 }}
+    </div>
+
+    <br/>
+
+    <div>
+        <h6 style = 'font-size: 17px'>Observaciones Generales del Entrenamiento</h6>
+
+        {{ Tabla_6 }}
+    </div>
+
+    <div>
+        <img class = 'fig' src = {{ Imagen }} alt = 'Image Not found' />
+    </div>
+
+    </center>
+    </div>
+    <hr/>
+    <p style = "text-align: left">1. Los resultados y ajustes al entrenamiento siempre deben ser progresivos</p>
+    <p style = "text-align: left">2. Incluir los eventos competitivos y recreativos como dias de entrenamiento</p>
+    <p style = "text-align: left">*La información de este informe fue construida con italcol*</p>
+
+
+
+</body>
+
+</html>
